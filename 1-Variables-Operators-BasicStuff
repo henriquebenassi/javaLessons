@@ -29,6 +29,8 @@ public class lessonOne {
      int diff = 1 - 1;
      int product = 1 * 1;
      int quotient = 1 / 1;
+     
+     // int modulo = 5 % 2; will store the integer 1
   
    
    /*Now these are the relational operators.. < > <= >=
