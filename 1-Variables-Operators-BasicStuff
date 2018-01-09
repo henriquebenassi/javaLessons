@@ -1,0 +1,42 @@
+public class lessonOne {
+   
+   /*This guy below prints you what is between parentheses.. Strings must come between quotes, 
+   Integers and Booleans don't need to.. but Char must come between apostrophes..
+   It must be ended by ; */
+   
+     System.out.println("Hi");
+     System.out.println(42);
+     System.out.println(true);
+     System.out.println('A');
+
+
+   /*Now this is how you declare variables, you must specify their data type before declaring. 
+   It helps you store values you want 
+   Char should also come between apostrophes.. and remember to end with ; */
+   
+     int numeraoDoFaustao = 9001;
+     boolean faustaoRulez = true;
+     char letraFausto = 'F';
+   
+   
+   //Be an organized person once in your life and use whitespace to make your code awesome. #goodpractices
+   
+   
+   /*You can use math operators when declaring variables.. + - * / and % (modulo)
+   modulo returns the remainder left over after dividing two numbers */
+   
+     int sum = 1 + 1;
+     int diff = 1 - 1;
+     int product = 1 * 1;
+     int quotient = 1 / 1;
+  
+   
+   /*Now these are the relational operators.. < > <= >=
+   They will always return a boolean value
+   System.out.println(5 < 7); will print true, for example */
+   
+   
+   //Equality operators: == for equal to and != for not equal to
+   
+   //That is it for the first class. Very well guy.
+}
