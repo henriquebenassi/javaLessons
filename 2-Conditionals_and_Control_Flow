@@ -1,0 +1,72 @@
+class lessonTwo {
+
+/*Boolean Operators:
+
+   &&: "and" -> only returns the boolean true when both sentences are true
+   ||: "or" -> returns the boolean true when any of the sentences are true
+   !: "not" -> changes the boolean value of the sentence it relates to (e.g: !true or !(4 <= 10)) 
+   
+   Obs: Precendence (from more to less prioritary): ! > && > ! */
+
+
+// If-Else if-Else Statements:
+
+   public static void main(String[] args) {
+   
+    int round = 2;
+
+
+		if (round > 12) {
+
+			System.out.println("The match is over!");
+
+		} else if (round > 0) {
+
+			System.out.println("The match is underway!");
+
+		}	else {
+
+			System.out.println("The boxing match hasn't started yet.");
+      
+      }
+      
+      
+// Ternary Conditionals: they are used to quickly write on a single line if-else statements
+
+   public static void main(String[] args) {
+		
+		int fuelLevel = 3;
+
+
+		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+		System.out.println(canDrive);
+    
+    }
+    
+/* Switch Statements: instead of if-else statements being determined by boolean values in order to run or not,
+                      we can use a Switch Statement to run codes accordingly to specific values, integers, characters or Strings
+                      here is an example: */
+                      
+     public static void main(String[] args) {
+		
+		   char penaltyKick = 'R';
+
+		  switch (penaltyKick) {
+
+			   case 'L': System.out.println("Messi shoots to the left and scores!");
+								break; 
+			   case 'R': System.out.println("Messi shoots to the right and misses the goal!");
+								break;
+			   case 'C': System.out.println("Messi shoots down the center, but the keeper blocks it!");
+								break;
+			default:
+				System.out.println("Messi is in position...");
+        
+        }
+
+/* The 'break' statement will exit the 'switch' statement after a condition is met. Without the break statement, 
+   Java will continue to check whether the value of restaurantRating matches any other cases.
+   
+   The 'default' case is printed only if none of the cases declared are met
+
+}
