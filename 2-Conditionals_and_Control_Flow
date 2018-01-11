@@ -6,7 +6,7 @@ class lessonTwo {
    ||: "or" -> returns the boolean true when any of the sentences are true
    !: "not" -> changes the boolean value of the sentence it relates to (e.g: !true or !(4 <= 10)) 
    
-   Obs: Precendence (from more to less prioritary): ! > && > ! */
+   Obs: Precendence (from more to less prioritary): ! > && > || */
 
 
 // If-Else if-Else Statements:
