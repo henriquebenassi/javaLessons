@@ -3,14 +3,15 @@ class Droid {
   //Droid designed to exterminate human race. So cute!
   
   int batteryLevel;
-  
-  
-  public static class Robot {
+    
+  public Droid() {
     
     int batteryLevel = 100;
+  } 
+    
+  
   public void activate() {
-    
-    
+        
     System.out.println("Droid activated. How shall we end the human scum today?");
     batteryLevel = batteryLevel-5;
     System.out.println("Battery level is: " + batteryLevel + " percent.");
@@ -30,7 +31,7 @@ class Droid {
       System.out.println("Battery level is: " + batteryLevel + " percent.");
     }
   }
-  
+    
   
   public int checkBatteryLevel() {
     return batteryLevel;
@@ -42,7 +43,7 @@ class Droid {
     if (feet > 2) {
       
       System.out.println("Error! Droid can't hover up so high, genius");
-        
+              
     } else {
       
       System.out.println("Hovering...");
@@ -51,16 +52,13 @@ class Droid {
     }
    }
   
-  }
-  
- 
   
   public static void main(String[] args) {
     
-    Robot shocky = new Robot();
+    Droid shocky = new Droid();
     shocky.activate();
     shocky.chargeBattery(5);
-    shocky.hover(2);
+    shocky.hover(3);
   }
   
 }
