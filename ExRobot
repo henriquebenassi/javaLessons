@@ -5,17 +5,15 @@ class Droid {
   int batteryLevel;
   
   
-  public class Robot {
+  public static class Robot {
     
     int batteryLevel = 100;
-  }
-  
   public void activate() {
     
     
     System.out.println("Droid activated. How shall we end the human scum today?");
     batteryLevel = batteryLevel-5;
-    System.out.println("Battery level is: " batteryLevel + " percent.");
+    System.out.println("Battery level is: " + batteryLevel + " percent.");
   }
   
   
@@ -29,7 +27,7 @@ class Droid {
       System.out.println("Droid is fully charged. Ready to end the human scum.");  
     } else {
       
-      System.out.println("Battery level is: " batteryLevel + " percent.");
+      System.out.println("Battery level is: " + batteryLevel + " percent.");
     }
   }
   
@@ -49,16 +47,20 @@ class Droid {
       
       System.out.println("Hovering...");
       batteryLevel = batteryLevel - 20;
-      System.out.println("Battery level is: " batteryLevel + " percent.");
+      System.out.println("Battery level is: " + batteryLevel + " percent.");
     }
    }
+  
+  }
+  
+ 
   
   public static void main(String[] args) {
     
     Robot shocky = new Robot();
     shocky.activate();
     shocky.chargeBattery(5);
-    shocky.hover(1);
+    shocky.hover(2);
   }
   
 }
