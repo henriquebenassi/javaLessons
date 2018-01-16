@@ -10,16 +10,20 @@ public class GeneralizationsD {
     sports.add("Football");
     sports.add("Boxing");
     
-    /*This is an alternate way of adding to an ArrayList, it allows you to add an specific value in a specific place on the list, remembering that the first line is always 0*/ 
+    /*This is an alternate way of adding to an ArrayList, it allows you to add an specific value in a specific place on the list, 
+    remembering that the first line is always 0*/ 
     sports.add(1, "Volleyball");
     
-    /*Other methods that can be used on ArrayLists are '.get' to access a specific line of the Array and '.size' to return the integer equal to the number of entries on the Array*/
+    /*Other methods that can be used on ArrayLists are '.get' to access a specific line of the Array and '.size' to return the integer 
+    equal to the number of entries on the Array*/
     
-    /*"For Loops" are whacky codelines that run the commands on its box repeatedely until a certain condition is met.. this is the command:*/
+    /*"For Loops" are whacky codelines that run the commands on its box repeatedely until a certain condition is met.. this is the 
+    command:*/
     
     for (int i = 0; i < 7; i++) {System.out.println("The count is on: " + i);} 
     
-  /*Now there is also the "For Each Loop", which is a simplified way to make a For Loop.. the codeline goes as below and can be read as: "For each String element (named sport) IN 'sports', print them out*/  
+  /*Now there is also the "For Each Loop", which is a simplified way to make a For Loop.. the codeline goes as below and can be read as:
+  "For each String element (named sport) IN 'sports', print them out*/  
 
 		for(String sport : sports) {
       
@@ -27,7 +31,8 @@ public class GeneralizationsD {
 
 		}
     
-    /*Besides ArrayLists, we have the HashMaps, which stores KEYS and associated VALUES (like a dictionary), and can also be manipulated like ArrayLists. As noted, the command to insert new entries on HashMaps is '.put', different from ArrayLists*/
+    /*Besides ArrayLists, we have the HashMaps, which stores KEYS and associated VALUES (like a dictionary), and can also be manipulated
+    like ArrayLists. As noted, the command to insert new entries on HashMaps is '.put', different from ArrayLists*/
     
 		//Major cities and the year they were founded
 		HashMap<String, Integer> majorCities = new HashMap<String, Integer>();
